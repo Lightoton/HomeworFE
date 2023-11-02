@@ -1,0 +1,19 @@
+h1{
+    font-weight: normal;
+}
+p{
+    color: white;
+}
+.block1{
+    background-color:#34495E;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 10px 21px;
+   
+}
+/* 
+●  	Для стилей используйте параметры:
+background-color: #34495E
+border-radius: 20px
+padding: 10px 21px  
+Проблема в том что в примере поменяли цвет текста и добавлен margin, а этого нет в требованиях, я их дописал сам, но считаю что они должны быть указаны в требованиях*/
