@@ -50,10 +50,10 @@ input,p{
 .date{
     color: black;
 }
+
 .button{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
 }
 .button_submit{
     border: 1px solid rgb(60, 60, 255);
