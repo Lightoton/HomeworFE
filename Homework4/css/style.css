@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.box1{
+    border: 3px solid black;
+    height: 150px;
+    display: flex;
+}
+.red1{
+    border: 1px solid red;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.blue1{
+    border: 1px solid blue;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.green1{
+    border: 1px solid green;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.box2{
+    border: 3px solid black;
+    height: 150px;
+    position: relative;
+    top: 0;
+}
+.box2>.blue1{
+     position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.box2>.green1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.box3{
+    border: 3px solid black;
+    height: 150px;
+    position: relative;
+    top: 0;
+}
+.red2{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    background-color: red;
+}
+.blue2{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    background-color: blue;
+}
+.green2{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    background-color: green;
+}
+.box3>.blue2{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.box3>.green2{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.box4{
+    border: 3px solid black;
+    height: 150px;
+    position: relative;
+    top: 0;
+}
+.box4>.blue2{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 1;
+}
+.box4>.green2{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.box5{
+    border: 3px solid black;
+    height: 150px;
+    position: relative;
+    top: 0;
+}
+.box5>.red2{
+z-index: 1;
+}
+.box5>.blue2{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 0;
+    
+}
+.box5>.green2{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+.box6{
+    border: 3px solid black;
+    height: 150px;
+    position: relative;
+    top: 0;
+}
+.box6>.red2{
+    z-index: 2;
+}
+.box6>.blue2{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 1;
+        
+}
+.box6>.green2{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 0;
+}
